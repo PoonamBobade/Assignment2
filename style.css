@@ -1,0 +1,106 @@
+.header{
+  float: left;
+  
+}
+#header{
+  
+   /* margin-bottom: 2px; */
+   /* margin-top: 16px; */
+   text-align: left;
+   font: normal normal medium 18px/27px Poppins;
+ letter-spacing: 0px;
+ color: #323232;
+ /* opacity: 1; */
+   /* top: 18px; */
+ /* left: 314px; */
+ /* width: 235px; */
+ /* height: 25px; */
+ /* padding: 0px; */
+ margin: 0px;
+   
+}
+
+ .logo{
+    top: 36px;
+    left: 133px;
+    width: 100px;
+    height: 100px;
+    
+  }
+  
+  .flag-logo{
+    height:  20px;
+    width: 20px;
+   
+}
+
+.bordered-row {
+  border: 1px solid whitesmoke; /* Black border */
+  padding: 10px;
+  border-radius: NONE; /* Optional rounded corners */
+  background-color: rgb(242, 245, 247);
+  font-size: 14px;
+  font-weight: bold;
+  
+  
+}
+
+/* Add border to each column */
+.bordered-col {
+  border: none; /* Black border */
+  padding: 10px; /* Spacing inside */
+  text-align: center; /* Center text */
+ 
+}
+
+.bordered-row {
+  /* border: 2px solid #000; */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Column borders */
+.bordered-col {
+  /* border: 1px solid #000; */
+  padding: 10px;
+  text-align: center;
+}
+
+/* Skill tags */
+.custom-badge {
+  display: inline-block; /* Keeps them in one line */
+  background-color: #f0ebf7; /* Purple background */
+  color:  #A061F7; /* White text */
+  padding: 5pX;
+  margin: 1px;
+  border-radius: 0px;
+  border: 0.5px solid white;
+  font-size: 12px;
+}
+
+/* Ensures images are aligned properly */
+.d-flex.align-items-center img {
+  margin-right: 10px;
+}
+.email{
+font-size: 14px;
+  color: #797A7A;
+}
+.pagination .page-item .page-link {
+  border-radius: 50%; /* Makes numbers circular */
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  font-size: 12px;
+  color: black;
+}
+/* Style for active page number */
+.pagination .page-item.active .page-link {
+  background-color: blue; /* Blue background */
+  color: white; /* White text */
+  border-color: blue; /* Blue border */
+}
